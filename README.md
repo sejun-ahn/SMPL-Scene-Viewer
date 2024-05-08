@@ -25,12 +25,13 @@ Some examples
 ## Requirements
 1. Open3D 15.0+
 2. Download the SMPL model `basicModel_neutral_lbs_10_207_0_v1.0.0.pkl`, `basicModel_f_lbs_10_207_0_v1.0.0.pkl`, `basicModel_m_lbs_10_207_0_v1.0.0.pkl` and `J_regressor_extra.npy` from http://smpl.is.tue.mpg.de and put them in `smpl` directory.
+  If you downloaded the SMPL model zip file and extracted it, then you need to rename 'basicmodel_m_lbs_10_207_0_v1.0.0.pkl' with 'basicModel_m_lbs_10_207_0_v1.0.0.pkl'.
 2. (Optional) `ffmpeg` for video processing
 
 ## Installation  
 1. Clone the repository:
 ```
-git clone https://github.com/climbingdaily/SMPL-Viewer.git
+git clone https://github.com/climbingdaily/SMPL-Scene-Viewer.git
 ```
 2. Install the required packages:
 ```
@@ -42,7 +43,7 @@ pip install numpy open3d matplotlib scipy opencv-python torch paramiko chumpy lz
 
 3. Run
 ```
-python GUI_Tool.py
+python GUI_Tools.py
 ```
 
 ## Usage
